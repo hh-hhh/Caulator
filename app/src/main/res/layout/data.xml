@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="获取开始时间"
+        android:id="@+id/btnChoose1Date"
+        android:layout_weight="0.05"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始时间："
+
+        android:textStyle="italic"
+        android:layout_weight="0.08"
+        android:layout_alignBottom="@+id/btnChoose1Date"
+        android:layout_toRightOf="@+id/btnChoose1Date"
+        android:layout_toEndOf="@+id/btnChoose1Date"
+        android:layout_marginBottom="13dp" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="获取结束时间"
+        android:id="@+id/btnChoose2Date"
+        android:layout_weight="0.05"
+        android:layout_below="@+id/btnChoose1Date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结束时间："
+        android:textStyle="italic"
+
+        android:layout_weight="0.08"
+        android:layout_alignBottom="@+id/btnChoose2Date"
+        android:layout_toRightOf="@+id/btnChoose2Date"
+        android:layout_toEndOf="@+id/btnChoose2Date" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="间隔天数"
+        android:id="@+id/btnDaysAty"
+        android:layout_weight="0.05"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期间隔为："
+        android:textStyle="italic"
+        android:layout_weight="0.08"
+        android:id="@+id/days"
+        android:layout_alignBottom="@+id/btnDaysAty"
+        android:layout_toRightOf="@+id/btnDaysAty"
+        android:layout_toEndOf="@+id/btnDaysAty" />
+
+</RelativeLayout>

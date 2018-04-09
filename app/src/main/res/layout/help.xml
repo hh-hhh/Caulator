@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:text="此计算器分为多个模块:
+    支持整数和小数运算（内部采用浮点，允许一定误差）。
+    支持加减乘除、括号等运算。
+    支持连续加、减等复杂运算。
+    支持sin,cos,幂等多种函数计算。
+    支持单位换算。
+    支持进制转换。"
+        android:maxLines="10"
+        android:scrollbars="vertical" />
+</LinearLayout>

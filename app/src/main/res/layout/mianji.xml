@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/text30" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="请输入："
+        android:layout_x="12px" android:layout_y="13px">
+    </TextView>
+
+    <Button android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:layout_x="133px" android:layout_y="117px">
+    </Button>
+    <Button android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_x="134px" android:layout_y="173px">
+    </Button>
+
+    <EditText
+        android:id="@+id/edit30"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="20dp"
+        android:textSize="15dp"></EditText>
+
+    <TextView
+        android:id="@+id/text31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="36dp"
+        android:text="m²"></TextView>
+</AbsoluteLayout>

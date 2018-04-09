@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    >
+    <item
+
+        android:id="@+id/action_BJ"
+        android:orderInCategory="100"
+        android:title="标准" />
+
+    <item
+        android:id="@+id/action_cxy"
+        android:orderInCategory="100"
+        android:title="进制转换" />
+
+   <!-- <item
+        android:id="@+id/action_data"
+        android:orderInCategory="100"
+        android:title="日期计算"/-->
+    <item
+        android:id="@+id/action_volume"
+        android:orderInCategory="100"
+        android:title="单位换算"/>
+    <item
+        android:id="@+id/action_sushu"
+        android:orderInCategory="100"
+        android:title="素数判断"/>
+
+   <!-- <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="帮助"/>-->
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/widget28"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="单位换算："
+        android:layout_x="3px"
+        android:layout_y="3px">
+    </TextView>
+    <Button android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="长度"
+        android:layout_x="0px"
+        android:layout_y="90px">
+    </Button>
+    <Button android:id="@+id/widget30"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="重量"
+        android:layout_x="0px"
+        android:layout_y="180px">
+    </Button>
+    <Button android:id="@+id/widget31"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="面积"
+        android:layout_x="0px"
+        android:layout_y="270px">
+    </Button>
+    <Button android:id="@+id/widget32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="体积"
+        android:layout_x="0px"
+        android:layout_y="360px">
+    </Button>
+
+</AbsoluteLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/Test24" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_x="115px"
+        android:layout_y="47px">
+    </TextView>
+    <TextView android:id="@+id/Test25" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_x="115px"
+        android:layout_y="79px">
+    </TextView>
+    <TextView android:id="@+id/Test26" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_x="116px"
+        android:layout_y="117px">
+    </TextView>
+    <Button android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回上一级"
+        android:layout_x="122px" android:layout_y="169px">
+    </Button>
+</AbsoluteLayout>
